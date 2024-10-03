@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+* {
+  font-family: Raleway;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+}
+.banner img {
+    width: 248px;
+    height: 214px;
+  }
+  
+  
+  .banner-content {
+    padding-top: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.48px;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(49, 168, 221, 0) 100%
+    );
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(51, 168, 219, 0.15) 0%,
+        rgba(0, 0, 0, 0.08) 100%
+      ),
+      url(../trilha-css-desafio-01/assets/images/banner.png);
+  }
+  
+  
+  .banner h1 {
+    padding: 50px 0 20px 0px;
+    font-size: 40px;
+    font-weight: 900;
+    background: linear-gradient(180deg, #33a8db 0%, #0c5a93 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+  }
+  
+  
+  .banner p {
+    margin: 0 30% 24px;
+  }
+  
+  
+  header button {
+    color: #31a8dd;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-image: linear-gradient(#3ba1cd, #1572b7);
+  }
+  
+body {
+    background-color: black;
+  }
+  
+  section {
+    margin: 120px auto;
+  }
+    
+  #course-content {
+    width: 750px;
+  }
+  
+  #course-content p {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #33a8db;
+    font-size: 2rem;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    
+  }
+
+  .module {
+    border: 1px solid #33a8db;
+    border-radius: 57px;
+    padding: 16px 127px;
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+    width: Fixed (535px) px;
+    height: (51px);
+    padding: 16px 127px 16px 127px;
+    margin: 20px;
+    background-color: rgb(40, 39, 39);
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .module span {
+    color: #33a8db;
+  }
+
+  #transform-world p {
+    position: absolute;
+    position: left;
+    max-width: 250px;
+    height: 141px;
+    top: 111px;
+    left: 198px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    text-align: left;
+    text-shadow: 9px 6px rgba(52, 169, 220, 0.5);
+  }
+  #transform-world {
+    background-image: url(../trilha-css-desafio-01/assets/images/woman-code.png);
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-position-y: -220px;
+    background-attachment: fixed;
+  }
+  
+  #professional-challenges h2 {
+    margin: 20px;
+  }
+  #professional-challenges p {
+    font-size: 16px;
+    height: 76px;
+    text-align: center;
+    margin: 20px 20%;
+  }
+
+  footer a {
+    color: rgba(52, 169, 220, 0.5);
+    text-decoration: none; 
+    font-size: 16px;
+    font-weight: 900; 
+  }
+  footer img {
+    margin: 10px;
+  }
+  
+  footer p {
+    padding-bottom: 40px;
+  }
+  
